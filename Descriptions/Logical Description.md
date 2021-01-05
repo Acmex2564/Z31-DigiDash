@@ -9,7 +9,7 @@ Due to the limited processing capability of 1970s microcontrollers, the cluster 
 * Two Hitachi HD6301VP microcontrollers (MCUs)
 * A Hitachi HD46821P (AKA HD6821P) Peripheral Interface Adapter (PIA)
 * A Hitachi HM6117LPJ-3 CMOS Static RAM (SRAM).
-* Toshiba TC5090AP Phentaphasic Integration Analog-to-Digital Converter
+* Toshiba TC5090AP Phentaphasic Integration Analog-to-Digital Converter(s)
 
 * Other assorted Transistor-Transistor Logic (TTL) chips
 
@@ -22,7 +22,7 @@ Some additional discrete components are responsible for deriving the negative vo
 
 # Display Board
 
-The only significant IC on this board are 11  NEC uPD6300C 20-bit combination shift-register and Fluorescent Indicator Panel (FIP) drivers. These take a serial stream from a microprocessor, shifting the input from serial to parallel outputs to the anodes and grids of the actual VFD modules. 
+The only significant ICs on this board are 11  NEC uPD6300C 20-bit combination shift-register and Fluorescent Indicator Panel (FIP) drivers. These take a serial stream from a microprocessor, shifting the input from serial to parallel outputs to the anodes and grids of the actual VFD modules. 
 
 These are split into two serial banks, one for each processor. All the chips in a bank share the Serial Clock (SCK), Serial In (SI), and Latch (LH) inputs. Nearly each of these drivers operates in a standalone mode, with it's own Chip Select (CS) pin to the appropriate MCU. The exception are the two drivers for the Tachometer; the Serial Out of the first driver is connected to the Serial In of the second. 
 
