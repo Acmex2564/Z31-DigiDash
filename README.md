@@ -4,8 +4,11 @@ Reverse Engineering of the 300zx (Z31) Digital Cluster &amp; Design of replaceme
 Z31 digital clusters are one of, if not the best examples of this pure 1980s trend. Comprehensive instrumentation, large graphics, and gorgeous VFD illumination were a somewhat expensive option on the 300zx, as well as on Maxima, 240SX, Corvette, Celica/Supra, and a variety of other cars. As the cars languished in the transition period between "late model" and "classic", though, the digital package for the 300zx was not well liked.
 
 It had 3 major issues:
+
 Terrible update speed
+
 Lack of brightness
+
 Unreliability
 
 Now, as Z31s sit at the bottom of the depreciation curve, more people see them as '80s Grand Touring icons and not just as transporation or "sports cars", and a functioning digital dash can be a highlight instead of a detractor.
