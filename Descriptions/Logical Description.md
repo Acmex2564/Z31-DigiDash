@@ -68,25 +68,25 @@ Same story here -- two Mitsubishi M54844P 8-Digit, 8-Segment FIP Drivers. These 
 Two connectors, no visible numbering though. They did provide reference designators for the chips though, which is nice. 
 
 CONN 1
-Pin # | Description
-------|------------
-1.    | S0 (IC31)
-2.    | S1 (IC31)
-3.    | S2 (IC31)
-4.    | S3 (IC31)
-7.    | S0 (IC30)
-8.    | S1 (IC30)
-9.    | S2 (IC30)
-10.   | S3 (IC30)
+|Pin # | Description
+|-----:|------------
+|1.    | S0 (IC31)
+|2.    | S1 (IC31)
+|3.    | S2 (IC31)
+|4.    | S3 (IC31)
+}7.    | S0 (IC30)
+|8.    | S1 (IC30)
+|9.    | S2 (IC30)
+|10.   | S3 (IC30)
 
 CONN 2
-Pin # | Description
-------|------------
-1.    | RESET (IC30)
-2.    | ~WR (IC30)
-5.    | ~WR (IC31)
-6.    | CTL (IC31)
-8.    | RESET (IC31)
-10.   | MODE (IC30)
+|Pin # | Description
+|-----:|------------
+|1.    | RESET (IC30)
+|2.    | ~WR (IC30)
+|5.    | ~WR (IC31)
+|6.    | CTL (IC31)
+|8.    | RESET (IC31)
+|10.   | MODE (IC30)
 
 I think these may be tied in with a 3-to-8 line converter and a timebase generator on the processor board, but have not yet sounded this out. The reasoning is that the clock (A 555 timer) is on the module, with no possible sync to the MCU. The external clock is required because the M54844P does output multiplexing, but how are the inputs synchronized? It only has to do 8 inputs, because the drivers are placed reset to change the displayed output, but surely some form of sync is needed?
