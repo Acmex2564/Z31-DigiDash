@@ -5,11 +5,9 @@ Z31 digital clusters are one of, if not the best examples of this pure 1980s tre
 
 It had 3 major issues:
 
-Terrible update speed
-
-Lack of brightness
-
-Unreliability
+* Terrible update speed
+* Lack of brightness
+* Unreliability
 
 Now, as Z31s sit at the bottom of the depreciation curve, more people see them as '80s Grand Touring icons and not just as transporation or "sports cars", and a functioning digital dash can be a highlight instead of a detractor.
 
