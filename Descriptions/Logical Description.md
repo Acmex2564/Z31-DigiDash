@@ -34,25 +34,25 @@ From this point forward, I will refer to these as the "Main" drivers, for the sp
 
 All pins for these drivers are brought out to the two connectors between the processor and display board, lableled "CONN 1" and "CONN 2", with a continuous numbering from 1-40 on the board. Power signals are omitted here.
 
-Pin # | Description
------:|------------
-1.    | ~BI
-2.    | ~SCK (Satellite)
-4.    | ~CS (Driver RA14)
-5.    | ~CS (Driver RA16)
-6.    | ~CS (Driver RA17)
-7.    | ~CS (Driver RA19)
-8.    | ~CS (Driver RA15)
-10.   | LH (Satellite)
-11.   | SI (Satellite)
-29.   | SI (Main)
-30.   | LH (Main)
-31.   | ~CS (Driver RA7)
-32.   | ~CS (Driver RA12)
-33.   | ~CS (Driver RA10)
-34.   | ~CS (Driver RA4)
-35.   | ~CS (Driver RA5)
-36.   | ~SCK (Main)
+|Pin # | Description
+|-----:|------------
+|1.    | ~BI
+|2.    | ~SCK (Satellite)
+|4.    | ~CS (Driver RA14)
+|5.    | ~CS (Driver RA16)
+|6.    | ~CS (Driver RA17)
+|7.    | ~CS (Driver RA19)
+|8.    | ~CS (Driver RA15)
+|10.   | LH (Satellite)
+|11.   | SI (Satellite)
+|29.   | SI (Main)
+|30.   | LH (Main)
+|31.   | ~CS (Driver RA7)
+|32.   | ~CS (Driver RA12)
+|33.   | ~CS (Driver RA10)
+|34.   | ~CS (Driver RA4)
+|35.   | ~CS (Driver RA5)
+|36.   | ~SCK (Main)
 
 
 # Power Supply Module
