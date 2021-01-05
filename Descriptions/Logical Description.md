@@ -35,7 +35,7 @@ From this point forward, I will refer to these as the "Main" drivers, for the sp
 All pins for these drivers are brought out to the two connectors between the processor and display board, lableled "CONN 1" and "CONN 2", with a continuous numbering from 1-40 on the board. Power signals are omitted here.
 
 Pin # | Description
-------|------------
+-----:|------------
 1.    | ~BI
 2.    | ~SCK (Satellite)
 4.    | ~CS (Driver RA14)
@@ -74,7 +74,7 @@ CONN 1
 |2.    | S1 (IC31)
 |3.    | S2 (IC31)
 |4.    | S3 (IC31)
-}7.    | S0 (IC30)
+|7.    | S0 (IC30)
 |8.    | S1 (IC30)
 |9.    | S2 (IC30)
 |10.   | S3 (IC30)
