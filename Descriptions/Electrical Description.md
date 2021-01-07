@@ -1,7 +1,7 @@
 # Electrical Description of a 1984 Model 300zx Digital Gauge Cluster
 
 
-
+# Display Board
 |Pin # | Description | AC Volts | AC Freq. | DC Volts (Offset)
 |-----:|------------ |:---      |:---      |:---
 |3.    | ?           | 0        | N/A      | +5V
@@ -26,3 +26,12 @@
 |38.   | Tachometer Filament Dupe
 |39.   | Trip Computer Filament Dupe
 |40.   | Trip Computer Filament Dupe
+
+# Trip Meter Module
+|Pin # | Description | AC Volts | AC Freq. | DC Volts (Offset)
+|-----:|------------ |:---      |:---      |:---
+|5.    | Trip Computer Filament A           |         |      | -18.5V
+|6.    | Trip Computer Filament B           |         |      | -18.5V
+|19.    | Vcc (Logic Supply)  | ?        | ???      | +5V
+|21.    | Grid/Anode Bias     | 0        | N/A      | -22.5
+|22.    | Vss (GND)           | 0        | N/A      | 0V
