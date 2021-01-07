@@ -82,11 +82,11 @@ CONN 1
 CONN 2
 |Pin # | Description
 |-----:|------------
-|1.    | RESET (IC30)
-|2.    | ~WR (IC30)
-|5.    | ~WR (IC31)
-|6.    | CTL (IC31)
-|8.    | RESET (IC31)
-|10.   | MODE (IC30)
+|11.    | RESET (IC30)
+|12.    | ~WR (IC30)
+|15.    | ~WR (IC31)
+|16.    | CTL (IC31)
+|18.    | RESET (IC31)
+|20.    | MODE (IC30)
 
 I think these may be tied in with a 3-to-8 line converter and a timebase generator on the processor board, but have not yet sounded this out. The reasoning is that the clock (A 555 timer) is on the module, with no possible sync to the MCU. The external clock is required because the M54844P does output multiplexing, but how are the inputs synchronized? It only has to do 8 inputs, because the drivers are placed reset to change the displayed output, but surely some form of sync is needed?
