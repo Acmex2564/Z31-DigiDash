@@ -16,10 +16,10 @@ These are 16 position connectors, with 31 of 32 positions occupied. The numberin
 | 8.| +5V Out | White
 | 9.| Speed Sensor In | Black
 |10.| Speed Sensor Out | Black
-|12.| ASCD | Black
-|13.| ASCD | White
-|14.| ASCD | White
-|15.| ASCD | White
+|12.| ASCD On| Black
+|13.| ASCD Cruise| White
+|14.| ASCD Set Disp 1| White
+|15.| ASCD Set Disp 2| White
 |16.| Fuel Level (Main) | Black
 |17.| Fuel Level (Sub) | Black
 |18.| Oil Pressure | Black
