@@ -26,6 +26,9 @@ These produce the following ADC voltages, based on the values specified in the s
 |18.  |Oil Pressure     |
 |19.  |Water Temp       |
 
+Although the precise nature of the signal acquisition cannot be determined due to the presence of ceramic "hybrid" integrated circuits, these values are reasonable for the 5V ADCs present on the board. 
+Sufficient headroom remains that values out of range will allow the MCU to detect short/open circuit conditions, and disregard any such readings.
+
 
 # Display Board
 |Pin # | Description | AC Volts | AC Freq. | DC Volts (Offset)
