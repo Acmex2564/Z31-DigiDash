@@ -7,9 +7,9 @@ These are 16 position connectors, with 31 of 32 positions occupied. The numberin
 |Pin # | Description | Connector
 |---:| --- | :---
 | 1.| +12V Constant | White
-| 2. (&2')| Black (White)
+| 2. (&2')| GND | Black (White)
 | 3. (&3')| +12V On/Start | White (Black)
-| 4.| +12V Acc/On
+| 4.| +12V Acc/On | White
 | 5.| Illumination (Dim) | White
 | 6.| Coil Negative (Tach) | White
 | 7.| Illumination 2 | White
