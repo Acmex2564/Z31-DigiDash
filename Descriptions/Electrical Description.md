@@ -1,5 +1,41 @@
 # Electrical Description of a 1984 Model 300zx Digital Gauge Cluster
 
+# Main Harness Connectors
+There are 3 connectors, Sumitomo 58S-type, colored/keyed white/black/blue. Blue is the warning light pcb, and not of concern. White/black are the cluster connectors.
+These are 16 position connectors, with 31 of 32 positions occupied. The numbering scheme is eccentric. 
+
+|Pin # | Description | Connector
+|---:| --- | :---
+| 1.| +12V Constant | White
+| 2. (&2')| Black (White)
+| 3. (&3')| +12V On/Start | White (Black)
+| 4.| +12V Acc/On
+| 5.| Illumination (Dim) | White
+| 6.| Coil Negative (Tach) | White
+| 7.| Illumination 2 | White
+| 8.| +5V Out | White
+| 9.| Speed Sensor In | Black
+|10.| Speed Sensor Out | Black
+|12.| ASCD | Black
+|13.| ASCD | White
+|14.| ASCD | White
+|15.| ASCD | White
+|16.| Fuel Level (Main) | Black
+|17.| Fuel Level (Sub) | Black
+|18.| Oil Pressure | Black
+|19.| Water Temperature | Black
+|20.| Fuel Injection Pulse | Black
+|21.| Time Clock 1| White
+|22.| Time Clock 2| White
+|23.| N/C
+|24.| O2 Sensor ("30K MI SW") |White
+|25 | Charge Warning | Black
+|26.| Fuel Warning | Black
+|27.| Oil Pressure Warning | Black
+|28.| Security Lamp 1 | Black
+|29.| Security Lamp 2 | Black
+|30.| Ground (AGND?) |Black
+
 # Signal Acquisition
 There are four analog (resistance) signals acquired directly by the processor board:
 * Fuel Level (Main)
