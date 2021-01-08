@@ -1,5 +1,31 @@
 # Electrical Description of a 1984 Model 300zx Digital Gauge Cluster
 
+# Signal Acquisition
+There are four analog (resistance) signals acquired directly by the processor board:
+* Fuel Level (Main)
+* Fuel Level (Sub)
+* Water Temperature
+* Oil Pressure
+
+Each of these is configured as a voltage divider with a 5V supply, a resistance between the supply and the ADC, "R(1)", and the resistive sensor between the ADC and ground "R(2)".
+
+On the processor board, the values for R1 are given below:
+
+|Pin #|Wire Color|Description|Designator|Value
+|---:|---|---|:---|:---
+|16. |Y/B|Fuel Level (Main)|R80|82Ω
+|17. |Y/R|Fuel Level (Sub)|R81|100Ω
+|18. |Y/L|Oil Pressure|R79|43Ω 2% (G)
+|19. |Y/G|Water Temp|R78|43Ω 2G (G)
+
+These produce the following ADC voltages, based on the values specified in the service manual, for the digital tank gauge sending unit:
+|Pin #|Description|Range (Ω)|Range (V)
+|---: |---|:---|:---
+|16.  |Fuel Level (Main)|10Ω(@F) <-> 520Ω(@E)|0.54V(@F) <-> 4.3V(@E)
+|17.  |Fuel Leve (Sub)  |0Ω <-> 930Ω|0.2V(@0.25) <-> 4.5V(@E)
+|18.  |Oil Pressure     |
+|19.  |Water Temp       |
+
 
 # Display Board
 |Pin # | Description | AC Volts | AC Freq. | DC Volts (Offset)
