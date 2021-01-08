@@ -27,7 +27,7 @@ These are 16 position connectors, with 31 of 32 positions occupied. The numberin
 |20.| Fuel Injection Pulse | Black
 |21.| Time Clock 1| White
 |22.| Time Clock 2| White
-|23.| N/C
+|23.| N/C | White
 |24.| O2 Sensor ("30K MI SW") |White
 |25 | Charge Warning | Black
 |26.| Fuel Warning | Black
