@@ -9,3 +9,5 @@ YELLOW IS GROUND (A total of 3, don't skimp!)
 RED IS +12V (A total of 4, through two are common on the PCB anyway)
 
 THIS WAS DUMB. DON'T DO IT. If you have connector housings for the male pins available, use those instead of bare pins. Don't just stuff bare wire in the sockets; it's mechanically and electrically poor. At least use alligator clips; it sucks but works slightly better. 
+
+Also here are screencaps of the filament drive waveforms. Sadly, the trip meter driver has been intermittent since I got the cluster, and it was not alive while I was capturing these images.
