@@ -92,6 +92,9 @@ Sufficient headroom remains that values out of range will allow the MCU to detec
 |39.   | Trip Computer Filament Dupe
 |40.   | Trip Computer Filament Dupe
 
+
+
+
 # Trip Meter Module
 |Pin # | Description | AC Volts | AC Freq. | DC Volts (Offset)
 |-----:|------------ |:---      |:---      |:---
@@ -100,3 +103,23 @@ Sufficient headroom remains that values out of range will allow the MCU to detec
 |19.    | Vcc (Logic Supply)  | ?        | ???      | +5V
 |21.    | Grid/Anode Bias     | 0        | N/A      | -22.5
 |22.    | Vss (GND)           | 0        | N/A      | 0V
+
+Resistance values for the filaments are necessary to determine the nominal drive current. They measure at:
+
+|Pin # | Description | Pair Resistance | Anticipated Current
+|-----:|------------ |:---      |:---      
+|13.   | Volt/Pres/Temp Filament A           | 2.8Ω        | 930mA    
+|14.   | Volt/Pres/Temp Filament B           | 2.6Ω        | 930mA      
+|15.   | Tachometer Filament A           | 2.0Ω        | 1600mA      
+|16.   | Tachometer Filament B           | 2.0Ω        | 1600mA      
+|17.   | Speedometer Filament A           | 6.1Ω        | 560mA      
+|18.   | Speedometer Filament B           | 6.1Ω        | 560mA      
+|19.   | Fuel Filament A           | 2.6Ω        | 880mA     
+|20.   | Fuel Filament B           | 2.6Ω        | 880mA      
+
+|Pin # | Description | Pair Resistance | Anticipated Current
+|-----:|------------ |:---      |:---      
+|5.    | Trip Computer Filament A           |         |      
+|6.    | Trip Computer Filament B           |         |      
+
+These currents are very high, which explains the high operating temperature of the stock power supply box. 
