@@ -115,7 +115,10 @@ Resistance values for the filaments are necessary to determine the nominal drive
 |17.   | Speedometer Filament A           | 6.1Ω        | 560mA      
 |18.   | Speedometer Filament B           | 6.1Ω        | 560mA      
 |19.   | Fuel Filament A           | 2.6Ω        | 880mA     
-|20.   | Fuel Filament B           | 2.6Ω        | 880mA      
+|20.   | Fuel Filament B           | 2.6Ω        | 880mA    
+
+However, this is incorrect. Despite reading about the PTC nature of the filaments, I didn't actually comprehend this. 
+I measured approximately 40mA AC filament current at 2.4V RMS for the Volt/Pres/Temp VFD panel, in addition to 7mA of DC grid/anode current with all segments illuminated. 
 
 |Pin # | Description | Pair Resistance | Anticipated Current
 |-----:|------------ |:---      |:---      
