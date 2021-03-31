@@ -32,8 +32,8 @@ These are 16 position connectors, with 31 of 32 positions occupied. The numberin
 |25 | Charge Warning | Black
 |26.| Fuel Warning | Black
 |27.| Oil Pressure Warning | Black
-|28.| Security Lamp 1 | Black
-|29.| Security Lamp 2 | Black
+|28.| Security Lamp Low Side Switch | Black
+|29.| +12V Security | Black
 |30.| Ground (AGND?) |Black
 
 # Signal Acquisition
