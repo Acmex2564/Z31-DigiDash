@@ -17,5 +17,5 @@ See files "Physical Description.md", "Logical Description.md", and "Electrical D
 
 Note: I am a hobbiest. I am not a EE, CS, Developer, or any related field. Generally, I do my best to read and cargo-cult my way into a working solution. Progress will be slow. The modular design has made it easy to get quick progress and seize control of the actual display, so input, input protection, and power supply will be the main challenges.
 
-
+Note: None of the boards as-presented are in a state fit to be used without major effort. Big chunks of the Compute-Early-1 design were never tested before I moved on to Compute-Early-2 after component obselecence, etc. and the code to do more than flash the display on the bench was never developed. 
 
