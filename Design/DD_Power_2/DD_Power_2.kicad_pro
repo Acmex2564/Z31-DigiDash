@@ -347,7 +347,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DD_Power_1.kicad_pro",
+    "filename": "DD_Power_2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -413,8 +413,7 @@
         "nets": [
           "/+12V_2_PROTECT",
           "/+12V_ACC_ON",
-          "/+12V_ON_START",
-          "Net-(C37-Pad1)"
+          "/+12V_ON_START"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

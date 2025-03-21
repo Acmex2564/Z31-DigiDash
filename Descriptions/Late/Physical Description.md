@@ -1,0 +1,8 @@
+# Physical Description (Late Clusters, 1987-1989)
+The cluster is designed in a highly modular fashion which will dramatically ease the process of reverse engineering. Most of the Vacuum Fluorescent Displays (VFDs) are located on a single PCB, along with their driver ICs. The information display and driver is located on an additional sub-module. The mechanical odometer is an additional sub-module, as is the edge-lit "diagnostic display". The processor board is similar in footprint to the main display board, and is connected to the display board by two, twenty-by-one JAE terminal strips, and is mechanically fastened by 4 fasteners in the middle of the boards and several more along the perimeter. The processor board connects to the car by two Sumitomo 58S-series wire-to-wire connectors, totalling 32 contacts (31 used). The processor board also connects to a power supply module via one AMP(?) wire-to-board connectors, totalling 16 contacts (though not all are used).
+
+The major differences between the Early and Late clusters are as follows:
+* Late clusters use colored segments in the fuel gauge, tachometer, and temperature VFDs
+* Late clusters use a "check" display for some vehicle parameters
+* Late clusters use a simpler power supply in the same case, with a user-replacable fuse (instead of through-hole polyfuses or trace fuses)
+* Late clusters have significantly more silkscreening, most of it in English, which will aid reverse engineering
